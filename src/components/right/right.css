@@ -1,0 +1,72 @@
+
+.swiper2 {
+    width: 380px !important;
+    height: 100%;
+    font-size: 10px !important;
+  }
+  
+  .swiper-slide {
+
+    
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    border-radius: 12px !important;
+    display: block;
+    width: 100%;
+    height: 350px !important;
+    object-fit: cover;
+  }
+
+
+  .bgimg11{
+    background-image: url(../../../public/Picture\ \(7\).png) !important;
+    width: 250px !important;
+    height: 129px !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .bgimg12{
+    background-image: url(../../../public/Picture\ \(8\).png) !important;
+    width: 250px !important;
+    height: 129px !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .img1{
+    background-image: url(../../../public/Drama.png);
+    width: 230px !important;
+    height: 115px !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2{
+    background-image: url(../../../public/Sitcom.png);
+    width: 230px !important;
+    height: 115px !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .img3{
+    background-image: url(../../../public/Superhero.png);
+    width: 230px !important;
+    height: 115px !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .img4{
+    background-image: url(../../../public/Thriller.png);
+    width: 230px !important;
+    height: 115px !important;
+    background-size: cover;
+    background-position: center;
+  }

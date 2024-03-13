@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+}
+
+.left{
+  background-image: url(../../public/bg.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: top;
+  position: relative;
+  z-index: 9;
+
+}
+@media (min-width:1670px) {
+  .sidebar{
+    width: 20% !important;
+
+  }
+}
+@media (max-width: 1669px) {
+  .sidebar{
+    width: 0 !important;
+    display: none !important;
+  }
+}
+/* .shadow{
+  box-shadow: 10px 10px 20px 10px  #000 !important;
+  height: 100vh;
+  position: relative;
+  z-index: 999;
+} */
+.container{
+  width: 70% !important;
+  margin: auto !important;
+}
+
+.input input::placeholder {
+  color: white !important;
+}
+.header{
+  display: flex !important;
+  padding-top: 50px;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 80% !important;
+  margin: auto;
+}
+/* .text{
+  text-decoration: underline !important;
+  text-decoration-thickness: 10% !important;
+  border-radius: 92px !important;
+} */
+
+
+
+
+@media (max-width: 750px) {
+  
+  .scrollimg::-webkit-scrollbar {
+    cursor: pointer !important;
+    display: flex !important;
+    height: 4px !important;
+    background: rgb(214, 213, 213) !important;
+  }
+  .scrollimg::-webkit-scrollbar-thumb{
+    background-color: aqua !important;
+  }
+    
+}
+@media (min-width:708px) {
+  .scrollimg::-webkit-scrollbar{
+    display: none !important;
+  }
+  
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none !important;
+}
+
+@media(max-width:692px){
+  .input{
+    width: 280px !important;
+  }
+  .search{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .header{
+    display: none !important;
+  }
+}
+

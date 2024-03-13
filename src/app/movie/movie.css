@@ -1,0 +1,32 @@
+.moviebg{
+    background-image: url(../../../public/image\ 9.png);
+    background-size: cover !important;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg{
+    background-image: url(../../../public/Loki.png);
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    background-color: rgba(0, 0, 1, 0.7); 
+    z-index: 1; 
+  }
+
+  .bg-btn{
+    background-color: rgba(250, 245, 245, 0.2);
+    position: relative;
+    z-index: 10 !important;
+  }
+  .con{
+    position: relative;
+    z-index: 999 !important;
+  }
