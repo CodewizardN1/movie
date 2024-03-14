@@ -43,7 +43,7 @@
 
           <div className='flex items-center gap-3'>
             <Link href={'/'}>
-            <button className="w-[50px] h-[50px] bg-btn text-white rounded-[15px] flex items-center justify-center"><FaAngleLeft size={'25px'} /></button>
+            <button className="w-[50px] h-[50px] bg-btn text-white rounded-[15px] flex items-center justify-center">&apos;<FaAngleLeft size={'25px'} />&apos;</button>
             </Link>
             <h1 className='text-[22px] text-white font-bold'>Back Home</h1>
           </div>
@@ -147,7 +147,7 @@
                 <h1 className='text-[22px] text-white font-bold text-left'>Venom 2</h1>
                 <Image src={star} alt='5' className='w-[20px] star' />
                 <p className='text-[#cecece] text-[16px] font-semibold'>10 Oct 2021</p>
-                <p className='text-white text-[12px] w-[270px]'>Let There Be Carnage' release delayed to September | NewsBytes</p>
+                <p className="text-white text-[12px] w-[270px]">Let There Be Carnage' release delayed to September | NewsBytes</p>
               </div>
             </div>  
           </SwiperSlide>
@@ -208,7 +208,7 @@
                 <h1 className='text-[22px] text-white font-bold'>Venom 2</h1>
                 <Image src={star} alt='5' className='w-[20px] star' />
                 <p className='text-[#cecece] text-[16px] font-semibold'>10 Oct 2021</p>
-                <p className='text-white text-[12px] w-[270px]'>Let There Be Carnage' release delayed to September | NewsBytes</p>
+                <p className="text-white text-[12px] w-[270px]">Let There Be Carnage' release delayed to September | NewsBytes</p>
               </div>
             </div>  
           </SwiperSlide>
